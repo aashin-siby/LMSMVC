@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "Welcome to Our Library";
+}
+
+<div class="container my-5 ">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+            <h1 class="display-4 mb-4">Welcome to Our Library</h1>
+            <p class="lead mb-5">Discover, Learn, and Grow with Our Extensive Collection</p>
+        </div>
+    </div>
+
+    <div class="row g-4 py-5 row-cols-1 row-cols-md-3">
+        <div class="col d-flex align-items-start">
+            <div
+                class="icon-square text-body-emphasis bg-warning d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-book"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                </svg>
+            </div>
+            <div>
+                <h3 class="fs-2">Extensive Collection</h3>
+            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+            <div
+                class="icon-square text-body-emphasis bg-danger d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                    class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+            </div>
+            <div>
+                <h3 class="fs-2">Easy Search</h3>
+            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+            <div
+                class="icon-square text-body-emphasis bg-success  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                    class="bi bi-person" viewBox="0 0 16 16">
+                    <path
+                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                </svg>
+            </div>
+            <div>
+                <h3 class="fs-2">User-Friendly</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-2">
+    <div class="col-md-6 text-center">
+        <a href="@Url.Action("Index", "Book")" class="btn btn-special px-4 gap-3">Explore Our Collection</a>
+    </div>
+</div>
+
+</div>
+
+<style>
+    @* Home Styling *@
+    .icon-square {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.75rem;
+    }
+
+    .btn-special {
+        background: linear-gradient(135deg, #007bff, #0056b3);
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border-radius: 50px;
+        padding: 15px 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
+        border: none;
+    }
+
+    .btn-special:hover,
+    .btn-special:focus {
+        background: linear-gradient(135deg, #0056b3, #003f7f);
+        box-shadow: 0 8px 16px rgba(0, 123, 255, 0.6);
+        transform: translateY(-4px);
+        text-decoration: none;
+    }
+
+    .btn-special:active {
+        background: #003f7f;
+        box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
+        transform: translateY(2px);
+    }
+
+</style>

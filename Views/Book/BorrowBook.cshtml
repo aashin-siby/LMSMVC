@@ -1,0 +1,55 @@
+@model LMSAPI.DTO.BorrowBookDto
+
+@{
+    ViewData["Title"] = "Borrow Book";
+}
+
+
+<div class="container d-flex justify-content-center align-items-center ">
+    <div class="card" style="width: 100%; max-width: 500px;">
+        <div class="card-body">
+            <h4 class="card-title text-center mb-4">Borrow Book</h4>
+
+            <form asp-action="BorrowBook" method="post">
+                <input type="hidden" asp-for="BookId" />
+
+                <div class="form-group">
+                    <label asp-for="BorrowDate">Borrow Date</label>
+                    <input asp-for="BorrowDate" class="form-control" type="date" id="BorrowDate" required />
+                    <span asp-validation-for="BorrowDate" class="text-danger"></span>
+                </div>
+
+                <div class="alert alert-info mt-3">
+                    <strong>Note:</strong> If the book is not returned within 10 days, an additional penalty of <strong>₹5
+                        per day</strong> will be deducted with the inital <strong>₹100</strong>.
+                </div>
+
+                <button type="submit" class="btn btn-primary mt-3 w-100">Confirm Borrow</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        @* Validation on Borrow Date *@
+        @* $(document).ready(function () {
+            var today = new Date().toISOString().split('T')[0];
+            // Set max date for BorrowDate (current date)
+            document.getElementById('BorrowDate').setAttribute('max', today);
+
+            $('form').on('submit', function (e) {
+                var borrowDate = new Date($('#BorrowDate').val());
+                var today = new Date();
+                today.setHours(0, 0, 0, 0); 
+
+                borrowDate.setHours(0, 0, 0, 0); 
+            });
+        }); *@
+    </script>
+}

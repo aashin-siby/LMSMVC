@@ -1,0 +1,47 @@
+@model LMSAPI.DTO.ReturnBookDto
+
+@{
+    ViewData["Title"] = "Return Book";
+}
+
+<div class="container d-flex justify-content-center align-items-center ">
+    <div class="card" style="width: 100%; max-width: 500px;">
+        <div class="card-body">
+            <h4 class="card-title text-center mb-4">Return Book</h4>
+
+            <form asp-action="ReturnBook" method="post">
+                <input type="text" asp-for="BorrowId" />
+                <div class="form-group">
+                    <label asp-for="ReturnDate">Return Date</label>
+                    <input asp-for="ReturnDate" class="form-control" type="date" id="ReturnDate" required />
+                    <span asp-validation-for="ReturnDate" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary mt-3 w-100">Confirm Return</button>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        @* Return Date Validation *@
+        @* $(document).ready(function () {
+            $('form').on('submit', function (e) {
+                var returnDate = new Date($('#ReturnDate').val());
+                var today = new Date();
+                today.setHours(0, 0, 0, 0);
+                if (returnDate > today) {
+                    e.preventDefault();
+                    alert('Return date cannot be in the future.');
+                }
+            }); 
+
+            var today = new Date().toISOString().split('T')[0];
+            document.getElementById('ReturnDate').setAttribute('max', today); *@
+                    });
+    </script>
+}

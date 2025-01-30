@@ -1,0 +1,118 @@
+@model LMSAPI.DTO.UserRegister
+
+@{
+    ViewData["Title"] = "User Registration";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-header bg-success text-white text-center">
+                    <h3> User Registration</h3>
+                </div>
+
+                <div class="card-body">
+                    @if (ViewBag.Message != null)
+                    {
+                        <div class="alert alert-success text-center">
+                            <i class="fas fa-check-circle"></i> @ViewBag.Message
+                        </div>
+                    }
+
+                    <form action="/Auths/Register" method="post">
+                        <div class="form-group mb-3">
+                            <label asp-for="Username"><i class="fas fa-user"></i> Username</label>
+                            <input asp-for="Username" class="form-control" placeholder="Choose a username" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Password"><i class="fas fa-lock"></i> Password</label>
+                            <input asp-for="Password" type="password" class="form-control"
+                                placeholder="Enter a secure password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Role"><i class="fas fa-user-tag"></i> Role</label>
+                            <input asp-for="Role" type="hidden" value="User" />
+                            <input type="text" class="form-control" value="User" readonly />
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success">
+                                <i class="fas fa-user-plus"></i> Register
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="card-footer text-center">
+                    <p class="mb-0">Already have an account?
+                        <a asp-controller="Auths" asp-action="Login" class="text-success">
+                            Login Here
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+@* Register Syling *@
+    .card {
+        border-radius: 15px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-header {
+        background: linear-gradient(135deg, #28a745, #218838);
+        color: white;
+        font-weight: bold;
+    }
+
+    .card-body {
+        background-color: #f8f9fa;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .card-footer {
+        background-color: #f8f9fa;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .form-control {
+        height: 50px;
+        font-size: 1.1rem;
+        border-radius: 10px;
+    }
+
+    .form-control-lg {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 12px;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #218838;
+        box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+        transform: translateY(-3px);
+    }
+
+    a.text-success {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    
+</style>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

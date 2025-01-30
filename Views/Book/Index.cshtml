@@ -1,0 +1,42 @@
+@model IEnumerable<LMSAPI.Models.Book>
+
+@{
+     ViewData["Title"] = "Books List";
+}
+
+<h2 class="text-center mb-4">All Books</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+     <div class="alert alert-success">
+          @TempData["SuccessMessage"]
+     </div>
+}
+
+<div class="container">
+     <div class="row">
+          @foreach (var book in Model)
+          {
+               <div class="col-md-4 mb-4">
+                    <div class="card">
+                         <div class="card-body">
+                              <h5 class="card-title">@book.Title</h5>
+                              <p class="card-text">Author: @book.Author</p>
+
+                              @if (book.CopiesAvailable == 0)
+                              {
+                                   <a class="btn btn-secondary disabled" tabindex="-1" aria-disabled="true">Currently
+                                        Unavailable</a>
+                              }
+                              else
+                              {
+                                   <a asp-action="BorrowBook" asp-route-bookId="@book.BookId" class="btn btn-success">Borrow</a>
+                              }
+                         </div>
+                    </div>
+               </div>
+          }
+     </div>
+</div>
+
+</div>

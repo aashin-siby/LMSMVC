@@ -1,0 +1,61 @@
+@model IEnumerable<LMSAPI.Models.BorrowDetails>
+
+@{
+    ViewData["Title"] = "My Rentals";
+}
+
+<h2 class="text-center mb-4">My Rentals</h2>
+
+@* Success Message alert*@
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<div class="container">
+    @foreach (var rental in Model)
+    {
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">@rental.Title</h5>
+                <div class="row">
+                    <div class="col-6">
+                        <p><strong>Borrow Date:</strong> @rental.BorrowDate.ToString("dd-MM-yyyy")</p>
+                    </div>
+                    <div class="col-6">
+                        <p><strong>Return Date:</strong>
+                            @if (rental.ReturnDate == null)
+                            {
+                                <span class="text-danger font-weight-bold">Not returned</span>
+                            }
+                            else
+                            {
+                                @rental.ReturnDate?.ToString("dd-MM-yyyy")
+                            }
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p><strong>Payment:</strong> @rental.Payment.ToString("C")</p>
+                    </div>
+                    <div class="col-6 text-right">
+                        @if (rental.ReturnDate == null)
+                        {
+                            <a href="@Url.Action("ReturnBook", "Book", new { BorrowId = rental.BorrowId })"
+                                class="btn btn-primary btn-sm">Return</a>
+                            @rental.BorrowId
+                        }
+                        else
+                        {
+                            <span class="text-muted">Returned</span>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
