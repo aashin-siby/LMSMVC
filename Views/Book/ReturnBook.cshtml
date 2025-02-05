@@ -2,6 +2,9 @@
 
 @{
     ViewData["Title"] = "Return Book";
+    var backgroundImage =
+    Url.Content("https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
 }
 
 <div class="container d-flex justify-content-center align-items-center ">
@@ -10,7 +13,7 @@
             <h4 class="card-title text-center mb-4">Return Book</h4>
 
             <form asp-action="ReturnBook" method="post">
-                <input type="text" asp-for="BorrowId" />
+                <input type="hidden" asp-for="BorrowId" />
                 <div class="form-group">
                     <label asp-for="ReturnDate">Return Date</label>
                     <input asp-for="ReturnDate" class="form-control" type="date" id="ReturnDate" required />
@@ -42,6 +45,17 @@
 
             var today = new Date().toISOString().split('T')[0];
             document.getElementById('ReturnDate').setAttribute('max', today); *@
-                    });
+                        });
     </script>
+    <style>
+        body {
+            background-image: url('@backgroundImage');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            backdrop-filter: blur(5px);
+            color: white;
+        }
+    </style>
 }

@@ -2,11 +2,7 @@
   "Files": [
     {
       "Id": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LMSMVC.bundle.scp.css",
-      "PackagePath": "staticwebassets\\LMSMVC.7g6yuugre6.bundle.scp.css"
-    },
-    {
-      "Id": "D:\\Dotnet\\LMSMVC\\wwwroot\\backgorund_book.jpg",
-      "PackagePath": "staticwebassets\\backgorund_book.jpg"
+      "PackagePath": "staticwebassets\\LMSMVC.xgq560ya3n.bundle.scp.css"
     },
     {
       "Id": "D:\\Dotnet\\LMSMVC\\wwwroot\\css\\site.css",
@@ -15,6 +11,10 @@
     {
       "Id": "D:\\Dotnet\\LMSMVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Dotnet\\LMSMVC\\wwwroot\\faviconss.ico",
+      "PackagePath": "staticwebassets\\faviconss.ico"
     },
     {
       "Id": "D:\\Dotnet\\LMSMVC\\wwwroot\\js\\site.js",

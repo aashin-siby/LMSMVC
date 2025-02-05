@@ -74,7 +74,6 @@ D:\Dotnet\LMSMVC\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.c
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\scopedcss\bundle\LMSMVC.styles.css
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\scopedcss\projectbundle\LMSMVC.bundle.scp.css
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\7uoefnfvgv-b9sayid5wm.gz
-D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\fpxjz5o7q6-61n19gt1b8.gz
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\unuadui283-xtxxf3hu2r.gz
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\8dowlyeuqm-bqjiyaj88i.gz
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\lzy19krcu4-c2jlpeoesf.gz
@@ -135,8 +134,6 @@ D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\q6bgewjwkt-2z0ns9nrw6.gz
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\gfls1q42a7-muycvpuwrr.gz
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\xcaw83ck2v-87fc7y1x7t.gz
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\3yjj3hco2r-mlv21k5csn.gz
-D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\a0aa7fypba-7g6yuugre6.gz
-D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\h59y35fs4l-7g6yuugre6.gz
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\staticwebassets.build.json
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\staticwebassets.development.json
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -152,3 +149,8 @@ D:\Dotnet\LMSMVC\obj\Debug\net9.0\refint\LMSMVC.dll
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\LMSMVC.pdb
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\LMSMVC.genruntimeconfig.cache
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\ref\LMSMVC.dll
+D:\Dotnet\LMSMVC\obj\Debug\net9.0\LMSMVC.sourcelink.json
+D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\a0aa7fypba-xgq560ya3n.gz
+D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\h59y35fs4l-xgq560ya3n.gz
+D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\fpxjz5o7q6-8781mr4h71.gz
+D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\jpy06ut8d2-61n19gt1b8.gz

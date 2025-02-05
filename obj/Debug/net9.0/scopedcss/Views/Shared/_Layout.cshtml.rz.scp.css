@@ -40,9 +40,11 @@ button.accept-policy[b-5j971pri2g] {
 }
 
 .footer[b-5j971pri2g] {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+
 }
+

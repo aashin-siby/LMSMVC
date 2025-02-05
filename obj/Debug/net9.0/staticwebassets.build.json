@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h30Yc8fa2Hbf+bStjbHn+8w5nfsvHkmnCKKnrLAOkPs=",
+  "Hash": "z261624SMFcLqDq/1EqhGJ4DXERFR60rm2tYZ3V1ZAk=",
   "Source": "LMSMVC",
   "BasePath": "_content/LMSMVC",
   "Mode": "Default",
@@ -344,12 +344,12 @@
       "OriginalItemSpec": "D:\\Dotnet\\LMSMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\a0aa7fypba-7g6yuugre6.gz",
+      "Identity": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\a0aa7fypba-xgq560ya3n.gz",
       "SourceId": "LMSMVC",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LMSMVC",
-      "RelativePath": "LMSMVC#[.{fingerprint=7g6yuugre6}]?.styles.css.gz",
+      "RelativePath": "LMSMVC#[.{fingerprint=xgq560ya3n}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -358,8 +358,8 @@
       "RelatedAsset": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LMSMVC.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "11tubaymdr",
-      "Integrity": "ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg=",
+      "Fingerprint": "5m0zc3xjts",
+      "Integrity": "3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LMSMVC.styles.css"
@@ -512,12 +512,12 @@
       "OriginalItemSpec": "D:\\Dotnet\\LMSMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\fpxjz5o7q6-61n19gt1b8.gz",
+      "Identity": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\fpxjz5o7q6-8781mr4h71.gz",
       "SourceId": "LMSMVC",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LMSMVC",
-      "RelativePath": "favicon#[.{fingerprint=61n19gt1b8}]?.ico.gz",
+      "RelativePath": "favicon#[.{fingerprint=8781mr4h71}]?.ico.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -526,8 +526,8 @@
       "RelatedAsset": "D:\\Dotnet\\LMSMVC\\wwwroot\\favicon.ico",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "nezsohjtde",
-      "Integrity": "wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=",
+      "Fingerprint": "9t6lcr0dqz",
+      "Integrity": "vS3RzBUI9Pgyc1AQbnUnUMB0tqSGblJxaezXphISYTo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Dotnet\\LMSMVC\\wwwroot\\favicon.ico"
@@ -638,12 +638,12 @@
       "OriginalItemSpec": "D:\\Dotnet\\LMSMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Identity": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\h59y35fs4l-7g6yuugre6.gz",
+      "Identity": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\h59y35fs4l-xgq560ya3n.gz",
       "SourceId": "LMSMVC",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LMSMVC",
-      "RelativePath": "LMSMVC#[.{fingerprint=7g6yuugre6}]!.bundle.scp.css.gz",
+      "RelativePath": "LMSMVC#[.{fingerprint=xgq560ya3n}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -652,8 +652,8 @@
       "RelatedAsset": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LMSMVC.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "11tubaymdr",
-      "Integrity": "ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg=",
+      "Fingerprint": "5m0zc3xjts",
+      "Integrity": "3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LMSMVC.bundle.scp.css"
@@ -762,6 +762,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Dotnet\\LMSMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\jpy06ut8d2-61n19gt1b8.gz",
+      "SourceId": "LMSMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LMSMVC",
+      "RelativePath": "faviconss#[.{fingerprint=61n19gt1b8}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Dotnet\\LMSMVC\\wwwroot\\faviconss.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nezsohjtde",
+      "Integrity": "wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Dotnet\\LMSMVC\\wwwroot\\faviconss.ico"
     },
     {
       "Identity": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\lmgdty5g1e-v0zj4ognzu.gz",
@@ -1387,8 +1408,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "7g6yuugre6",
-      "Integrity": "2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4=",
+      "Fingerprint": "xgq560ya3n",
+      "Integrity": "QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LMSMVC.styles.css"
@@ -1408,32 +1429,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "7g6yuugre6",
-      "Integrity": "2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4=",
+      "Fingerprint": "xgq560ya3n",
+      "Integrity": "QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LMSMVC.bundle.scp.css"
-    },
-    {
-      "Identity": "D:\\Dotnet\\LMSMVC\\wwwroot\\backgorund_book.jpg",
-      "SourceId": "LMSMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Dotnet\\LMSMVC\\wwwroot\\",
-      "BasePath": "_content/LMSMVC",
-      "RelativePath": "backgorund_book#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "w0h5nmx97x",
-      "Integrity": "cMRX1icxKScIembA7+PEAbr6fHGfQ4veg8k2GVkmXkI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\backgorund_book.jpg"
     },
     {
       "Identity": "D:\\Dotnet\\LMSMVC\\wwwroot\\css\\site.css",
@@ -1471,11 +1471,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8781mr4h71",
+      "Integrity": "PH6iK8jGK2b0GCKcu8G0ImJcAGoqWqxWOFFInhtGV/I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Dotnet\\LMSMVC\\wwwroot\\faviconss.ico",
+      "SourceId": "LMSMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dotnet\\LMSMVC\\wwwroot\\",
+      "BasePath": "_content/LMSMVC",
+      "RelativePath": "faviconss#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
       "Fingerprint": "61n19gt1b8",
       "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\faviconss.ico"
     },
     {
       "Identity": "D:\\Dotnet\\LMSMVC\\wwwroot\\js\\site.js",
@@ -2761,88 +2782,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "backgorund_book.jpg",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\wwwroot\\backgorund_book.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "368306"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cMRX1icxKScIembA7+PEAbr6fHGfQ4veg8k2GVkmXkI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:12:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-cMRX1icxKScIembA7+PEAbr6fHGfQ4veg8k2GVkmXkI="
-        }
-      ]
-    },
-    {
-      "Route": "backgorund_book.w0h5nmx97x.jpg",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\wwwroot\\backgorund_book.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "368306"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cMRX1icxKScIembA7+PEAbr6fHGfQ4veg8k2GVkmXkI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:12:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "w0h5nmx97x"
-        },
-        {
-          "Name": "label",
-          "Value": "backgorund_book.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cMRX1icxKScIembA7+PEAbr6fHGfQ4veg8k2GVkmXkI="
-        }
-      ]
-    },
-    {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\7uoefnfvgv-b9sayid5wm.gz",
       "Selectors": [
@@ -3141,8 +3080,306 @@
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\fpxjz5o7q6-61n19gt1b8.gz",
+      "Route": "favicon.8781mr4h71.ico",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\fpxjz5o7q6-8781mr4h71.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000004789180"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208803"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vS3RzBUI9Pgyc1AQbnUnUMB0tqSGblJxaezXphISYTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 06:04:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PH6iK8jGK2b0GCKcu8G0ImJcAGoqWqxWOFFInhtGV/I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8781mr4h71"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PH6iK8jGK2b0GCKcu8G0ImJcAGoqWqxWOFFInhtGV/I="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.8781mr4h71.ico",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PH6iK8jGK2b0GCKcu8G0ImJcAGoqWqxWOFFInhtGV/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 06:04:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8781mr4h71"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PH6iK8jGK2b0GCKcu8G0ImJcAGoqWqxWOFFInhtGV/I="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.8781mr4h71.ico.gz",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\fpxjz5o7q6-8781mr4h71.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vS3RzBUI9Pgyc1AQbnUnUMB0tqSGblJxaezXphISYTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 06:04:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8781mr4h71"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vS3RzBUI9Pgyc1AQbnUnUMB0tqSGblJxaezXphISYTo="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\fpxjz5o7q6-8781mr4h71.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000004789180"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208803"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vS3RzBUI9Pgyc1AQbnUnUMB0tqSGblJxaezXphISYTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 06:04:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PH6iK8jGK2b0GCKcu8G0ImJcAGoqWqxWOFFInhtGV/I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PH6iK8jGK2b0GCKcu8G0ImJcAGoqWqxWOFFInhtGV/I="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PH6iK8jGK2b0GCKcu8G0ImJcAGoqWqxWOFFInhtGV/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 06:04:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PH6iK8jGK2b0GCKcu8G0ImJcAGoqWqxWOFFInhtGV/I="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico.gz",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\fpxjz5o7q6-8781mr4h71.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vS3RzBUI9Pgyc1AQbnUnUMB0tqSGblJxaezXphISYTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 06:04:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vS3RzBUI9Pgyc1AQbnUnUMB0tqSGblJxaezXphISYTo="
+        }
+      ]
+    },
+    {
+      "Route": "faviconss.61n19gt1b8.ico",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\jpy06ut8d2-61n19gt1b8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3195,7 +3432,7 @@
         },
         {
           "Name": "label",
-          "Value": "favicon.ico"
+          "Value": "faviconss.ico"
         },
         {
           "Name": "integrity",
@@ -3204,8 +3441,8 @@
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\wwwroot\\favicon.ico",
+      "Route": "faviconss.61n19gt1b8.ico",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\wwwroot\\faviconss.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3240,7 +3477,7 @@
         },
         {
           "Name": "label",
-          "Value": "favicon.ico"
+          "Value": "faviconss.ico"
         },
         {
           "Name": "integrity",
@@ -3249,8 +3486,8 @@
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico.gz",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\fpxjz5o7q6-61n19gt1b8.gz",
+      "Route": "faviconss.61n19gt1b8.ico.gz",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\jpy06ut8d2-61n19gt1b8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3293,7 +3530,7 @@
         },
         {
           "Name": "label",
-          "Value": "favicon.ico.gz"
+          "Value": "faviconss.ico.gz"
         },
         {
           "Name": "integrity",
@@ -3302,8 +3539,8 @@
       ]
     },
     {
-      "Route": "favicon.ico",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\fpxjz5o7q6-61n19gt1b8.gz",
+      "Route": "faviconss.ico",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\jpy06ut8d2-61n19gt1b8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3357,8 +3594,8 @@
       ]
     },
     {
-      "Route": "favicon.ico",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\wwwroot\\favicon.ico",
+      "Route": "faviconss.ico",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\wwwroot\\faviconss.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3394,8 +3631,8 @@
       ]
     },
     {
-      "Route": "favicon.ico.gz",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\fpxjz5o7q6-61n19gt1b8.gz",
+      "Route": "faviconss.ico.gz",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\jpy06ut8d2-61n19gt1b8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21401,13 +21638,13 @@
       ]
     },
     {
-      "Route": "LMSMVC.7g6yuugre6.bundle.scp.css",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\h59y35fs4l-7g6yuugre6.gz",
+      "Route": "LMSMVC.bundle.scp.css",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\h59y35fs4l-xgq560ya3n.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.001838235294"
         }
       ],
       "ResponseHeaders": [
@@ -21417,19 +21654,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "543"
         },
         {
           "Name": "ETag",
-          "Value": "\"ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg=\""
+          "Value": "\"3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -21445,26 +21682,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4=\""
+          "Value": "W/\"QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "7g6yuugre6"
-        },
-        {
-          "Name": "label",
-          "Value": "LMSMVC.bundle.scp.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4="
+          "Value": "sha256-QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw="
         }
       ]
     },
     {
-      "Route": "LMSMVC.7g6yuugre6.bundle.scp.css",
+      "Route": "LMSMVC.bundle.scp.css",
       "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LMSMVC.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21474,7 +21703,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1124"
+          "Value": "1128"
         },
         {
           "Name": "Content-Type",
@@ -21482,11 +21711,293 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4=\""
+          "Value": "\"QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw="
+        }
+      ]
+    },
+    {
+      "Route": "LMSMVC.bundle.scp.css.gz",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\h59y35fs4l-xgq560ya3n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0="
+        }
+      ]
+    },
+    {
+      "Route": "LMSMVC.styles.css",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\a0aa7fypba-xgq560ya3n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001838235294"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "543"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw="
+        }
+      ]
+    },
+    {
+      "Route": "LMSMVC.styles.css",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LMSMVC.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw="
+        }
+      ]
+    },
+    {
+      "Route": "LMSMVC.styles.css.gz",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\a0aa7fypba-xgq560ya3n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0="
+        }
+      ]
+    },
+    {
+      "Route": "LMSMVC.xgq560ya3n.bundle.scp.css",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\h59y35fs4l-xgq560ya3n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001838235294"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "543"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xgq560ya3n"
+        },
+        {
+          "Name": "label",
+          "Value": "LMSMVC.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw="
+        }
+      ]
+    },
+    {
+      "Route": "LMSMVC.xgq560ya3n.bundle.scp.css",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LMSMVC.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21496,7 +22007,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7g6yuugre6"
+          "Value": "xgq560ya3n"
         },
         {
           "Name": "label",
@@ -21504,13 +22015,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4="
+          "Value": "sha256-QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw="
         }
       ]
     },
     {
-      "Route": "LMSMVC.7g6yuugre6.bundle.scp.css.gz",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\h59y35fs4l-7g6yuugre6.gz",
+      "Route": "LMSMVC.xgq560ya3n.bundle.scp.css.gz",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\h59y35fs4l-xgq560ya3n.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21519,7 +22030,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "543"
         },
         {
           "Name": "Content-Type",
@@ -21527,11 +22038,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg=\""
+          "Value": "\"3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21549,7 +22060,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7g6yuugre6"
+          "Value": "xgq560ya3n"
         },
         {
           "Name": "label",
@@ -21557,18 +22068,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg="
+          "Value": "sha256-3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0="
         }
       ]
     },
     {
-      "Route": "LMSMVC.7g6yuugre6.styles.css",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\a0aa7fypba-7g6yuugre6.gz",
+      "Route": "LMSMVC.xgq560ya3n.styles.css",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\a0aa7fypba-xgq560ya3n.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.001838235294"
         }
       ],
       "ResponseHeaders": [
@@ -21578,15 +22089,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "543"
         },
         {
           "Name": "ETag",
-          "Value": "\"ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg=\""
+          "Value": "\"3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21606,13 +22117,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4=\""
+          "Value": "W/\"QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7g6yuugre6"
+          "Value": "xgq560ya3n"
         },
         {
           "Name": "label",
@@ -21620,12 +22131,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4="
+          "Value": "sha256-QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw="
         }
       ]
     },
     {
-      "Route": "LMSMVC.7g6yuugre6.styles.css",
+      "Route": "LMSMVC.xgq560ya3n.styles.css",
       "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LMSMVC.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21635,7 +22146,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1124"
+          "Value": "1128"
         },
         {
           "Name": "Content-Type",
@@ -21643,11 +22154,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4=\""
+          "Value": "\"QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21657,7 +22168,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7g6yuugre6"
+          "Value": "xgq560ya3n"
         },
         {
           "Name": "label",
@@ -21665,13 +22176,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4="
+          "Value": "sha256-QXsbrMGARJhHG2fvZLlGU5nBmAuKGM4oYiN8HxGejOw="
         }
       ]
     },
     {
-      "Route": "LMSMVC.7g6yuugre6.styles.css.gz",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\a0aa7fypba-7g6yuugre6.gz",
+      "Route": "LMSMVC.xgq560ya3n.styles.css.gz",
+      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\a0aa7fypba-xgq560ya3n.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21680,7 +22191,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "543"
         },
         {
           "Name": "Content-Type",
@@ -21688,11 +22199,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg=\""
+          "Value": "\"3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
+          "Value": "Sat, 01 Feb 2025 09:14:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21710,7 +22221,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7g6yuugre6"
+          "Value": "xgq560ya3n"
         },
         {
           "Name": "label",
@@ -21718,281 +22229,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg="
-        }
-      ]
-    },
-    {
-      "Route": "LMSMVC.bundle.scp.css",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\h59y35fs4l-7g6yuugre6.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001845018450"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4="
-        }
-      ]
-    },
-    {
-      "Route": "LMSMVC.bundle.scp.css",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LMSMVC.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1124"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4="
-        }
-      ]
-    },
-    {
-      "Route": "LMSMVC.bundle.scp.css.gz",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\h59y35fs4l-7g6yuugre6.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg="
-        }
-      ]
-    },
-    {
-      "Route": "LMSMVC.styles.css",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\a0aa7fypba-7g6yuugre6.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001845018450"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4="
-        }
-      ]
-    },
-    {
-      "Route": "LMSMVC.styles.css",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LMSMVC.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1124"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2dQveMr7dn601lIbtusdrAN+pOl5cN+IO6IzxFtsGR4="
-        }
-      ]
-    },
-    {
-      "Route": "LMSMVC.styles.css.gz",
-      "AssetFile": "D:\\Dotnet\\LMSMVC\\obj\\Debug\\net9.0\\compressed\\a0aa7fypba-7g6yuugre6.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 05:18:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ix4jUAJQI7LGpETwZ/yJwjLsrUDD4cv2Bj48oqdYzYg="
+          "Value": "sha256-3TWJRL1lym5GsFWnZrG4r1hYjaExiYGhhUH/EOzeZJ0="
         }
       ]
     }

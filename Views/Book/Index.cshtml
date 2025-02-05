@@ -1,42 +1,139 @@
 @model IEnumerable<LMSAPI.Models.Book>
 
 @{
-     ViewData["Title"] = "Books List";
+    ViewData["Title"] = "Books List";
+    var backgroundImage =
+    Url.Content("https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
 }
 
-<h2 class="text-center mb-4">All Books</h2>
+<h2 class="text-center mb-4 text-white">All Books</h2>
 
 @if (TempData["SuccessMessage"] != null)
 {
-     <div class="alert alert-success">
-          @TempData["SuccessMessage"]
-     </div>
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
 }
 
-<div class="container">
-     <div class="row">
-          @foreach (var book in Model)
-          {
-               <div class="col-md-4 mb-4">
-                    <div class="card">
-                         <div class="card-body">
-                              <h5 class="card-title">@book.Title</h5>
-                              <p class="card-text">Author: @book.Author</p>
+<div class="container ">
+    <div class="row">
+        @foreach (var book in Model)
+        {
+            var decodedImageUrl = !string.IsNullOrEmpty(book.ImageUrl) ? Uri.UnescapeDataString(book.ImageUrl) : null;
+            var decodeddesc = !string.IsNullOrEmpty(book.BookDescription) ? Uri.UnescapeDataString(book.BookDescription) : null;
 
-                              @if (book.CopiesAvailable == 0)
-                              {
-                                   <a class="btn btn-secondary disabled" tabindex="-1" aria-disabled="true">Currently
-                                        Unavailable</a>
-                              }
-                              else
-                              {
-                                   <a asp-action="BorrowBook" asp-route-bookId="@book.BookId" class="btn btn-success">Borrow</a>
-                              }
-                         </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" >
+                    @if (!string.IsNullOrEmpty(decodedImageUrl))
+                    {
+                        <img src="@decodedImageUrl" class="card-img-top" alt="Book Image" height="300px" width="200px">
+                    }
+                    else
+                    {
+                        <img src="https://media.istockphoto.com/id/466564401/vector/blank-vertical-book-template.jpg?s=612x612&w=0&k=20&c=8Sg5cQzhcqF40PHMmSbOCAr_q_c0HlU8qmQS5tH6wdc="
+                            class="card-img-top" alt="No Image Available" height="300px" width="200px">
+                    }
+
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                        <p class="card-text">Author: @book.Author</p>
+
+                        @if ((string.IsNullOrEmpty(book.BookDescription)) || book.BookDescription == "undefined")
+                        {
+                            <p class="card-text">No Description</p>
+
+                        }
+                        else
+                        {
+                            <p class="card-text">@decodeddesc</p>
+
+                        }
+
+                        @if (book.CopiesAvailable == 0)
+                        {
+                            <a class="btn btn-primary disabled" tabindex="-1" aria-disabled="true">Currently Unavailable</a>
+                        }
+                        else
+                        {
+                            <a asp-action="BorrowBook" asp-route-bookId="@book.BookId" class="btn btn-primary">Borrow</a>
+                        }
                     </div>
-               </div>
-          }
-     </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>
 
-</div>
+<style>
+    body {
+        background-image: url('@backgroundImage');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        backdrop-filter: blur(4px);
+        @* color: white; *@
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.733);
+        backdrop-filter: blur(10px);
+        border: none;
+        height: ;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .book-image {
+        height: 300px;
+        object-fit: cover;
+        width: 100%;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    }
+
+    /* Card Body Styling */
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-weight: bold;
+        @* color: white; *@
+    }
+
+    .card-text {
+        @* color: #ddd; *@
+        font-size: 14px;
+    }
+
+    /* Modern Buttons */
+    .btn-primary {
+        background: linear-gradient(135deg, #00c6ff, #0072ff);
+        border: none;
+        padding: 10px 15px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        border-radius: 25px;
+    }
+
+    .btn-primary:hover {
+        background: linear-gradient(135deg, #0072ff, #00c6ff);
+        transform: scale(1.05);
+    }
+
+    .btn-secondary {
+        background: rgba(255, 255, 255, 0.2);
+        border: none;
+        padding: 10px 15px;
+        font-weight: bold;
+        border-radius: 25px;
+    }
+</style>

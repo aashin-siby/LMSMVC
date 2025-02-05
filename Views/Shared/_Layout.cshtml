@@ -17,61 +17,61 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-light border-bottom box-shadow mb-3 navbar-custom">
-    <div class="container-fluid">
-        <a class="navbar-brand text-white" asp-controller="Home" asp-action="Index">
-            Library
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-            <ul class="navbar-nav flex-grow-1">
-                @if (Context.Session.GetString("AuthToken") != null)
-                {
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Book" asp-action="Index">
-                            <i class="fas fa-book-open"></i> Books
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" asp-controller="Home" asp-action="Privacy">
-                            <i class="fas fa-shield-alt"></i> Privacy
-                        </a>
-                    </li>
-                }
-            </ul>
-            <ul class="navbar-nav">
-                @if (Context.Session.GetString("AuthToken") != null)
-                {
-                    <li class="nav-item">
-                        <span class="nav-link text-light">
-                            Welcome, <b>@Context.Session.GetString("Username")!</b>
-                        </span>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Book" asp-action="AllRentals">
-                            <i class="fas fa-receipt"></i> My Books
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Auths" asp-action="Logout">
-                            <i class="fas fa-sign-out-alt text-danger"></i> Logout
-                        </a>
-                    </li>
-                }
-                else
-                {
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Auths" asp-action="Login">
-                            <i class="fas fa-sign-in-alt text-success"></i> Login
-                        </a>
-                    </li>
-                }
-            </ul>
-        </div>
-    </div>
-</nav>
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" asp-controller="Home" asp-action="Index">
+                    Library
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (Context.Session.GetString("AuthToken") != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Book" asp-action="Index">
+                                    <i class="fas fa-book-open"></i> Books
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-controller="Home" asp-action="Privacy">
+                                    <i class="fas fa-shield-alt"></i> Privacy
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                    <ul class="navbar-nav">
+                        @if (Context.Session.GetString("AuthToken") != null)
+                        {
+                            <li class="nav-item">
+                                <span class="nav-link text-light">
+                                    Welcome, <b>@Context.Session.GetString("Username")!</b>
+                                </span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Book" asp-action="AllRentals">
+                                    <i class="fas fa-receipt"></i> My Books
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Auths" asp-action="Logout">
+                                    <i class="fas fa-sign-out-alt text-danger"></i> Logout
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Auths" asp-action="Login">
+                                    Login
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
     </header>
 
@@ -81,7 +81,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted text-center">
+    <footer class="border-top footer text-light text-center footer-class">
         <div class="container">
             &copy; 2025 - Library Management System -
             <a asp-controller="Home" asp-action="Privacy" class="text-primary">
@@ -89,57 +89,70 @@
             </a>
         </div>
     </footer>
-<style>
-@* Navbar Styling *@
+    <style>
+        @* Navbar Styling *@
+
+       
 .navbar-custom {
-    background: linear-gradient(135deg, #007bff, #0056b3);
-    color: white;
-    border-radius: 0;
-    padding: 10px 20px;
-}
+    
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(10px);
 
-.navbar-custom .navbar-brand {
-    font-size: 1.8rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            color: white;
+            border-radius: 0;
+            padding: 10px 20px;
+        }
 
-.navbar-custom .navbar-nav .nav-item .nav-link {
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 10px 20px;
-    border-radius: 50px;
-    transition: all 0.3s ease;
-}
+        .navbar-custom .navbar-brand {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
 
-.navbar-custom .navbar-nav .nav-item .nav-link:hover {
-    background: rgba(255, 255, 255, 0.2);
-    color: #f8f9fa;
-    transform: scale(1.05);
-}
+        .navbar-custom .navbar-nav .nav-item .nav-link {
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 500;
+            padding: 10px 20px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
 
-.navbar-custom .navbar-nav .nav-item .nav-link i {
-    margin-right: 8px;
-}
+        .navbar-custom .navbar-nav .nav-item .nav-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+            color: #f8f9fa;
+            transform: scale(1.05);
+        }
 
-.navbar-custom .navbar-nav .nav-item .nav-link:focus {
-    outline: none;
-    box-shadow: none;
-}
+        .navbar-custom .navbar-nav .nav-item .nav-link i {
+            margin-right: 8px;
+        }
+
+        .navbar-custom .navbar-nav .nav-item .nav-link:focus {
+            outline: none;
+            box-shadow: none;
+        }
 
 
-.navbar-custom .navbar-toggler-icon {
-    background-color: #fff;
-}
+        .navbar-custom .navbar-toggler-icon {
+            background-color: #fff;
+        }
 
-.navbar-custom .navbar-nav .nav-item.active .nav-link {
-    color: #f8f9fa;
-    font-weight: 700;
-    background: rgba(255, 255, 255, 0.2);
-}
+        .navbar-custom .navbar-nav .nav-item.active .nav-link {
+            color: #f8f9fa;
+            font-weight: 700;
+            background: rgba(255, 255, 255, 0.2);
+        }
 
-</style>
+        .footer-class {
+            backdrop-filter: blur(10px);
+            background: rgba(0, 0, 0, 0.6);
+
+
+        }
+    </style>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

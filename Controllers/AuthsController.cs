@@ -72,6 +72,7 @@ public class AuthsController : Controller
     // Logout: Clear session data and redirect to the login page
     public IActionResult Logout()
     {
+        _logger.LogInformation("User Logged Out");
         HttpContext.Session.Clear();
         return RedirectToAction("Login", "Auths");
     }

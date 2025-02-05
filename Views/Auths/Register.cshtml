@@ -2,13 +2,16 @@
 
 @{
     ViewData["Title"] = "User Registration";
+     var backgroundImage =
+    Url.Content("https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
 }
 
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card shadow-lg border-0 rounded-lg">
-                <div class="card-header bg-success text-white text-center">
+                <div class="card-header bg-success text-white text-center py-4">
                     <h3> User Registration</h3>
                 </div>
 
@@ -23,18 +26,18 @@
                     <form action="/Auths/Register" method="post">
                         <div class="form-group mb-3">
                             <label asp-for="Username"><i class="fas fa-user"></i> Username</label>
-                            <input asp-for="Username" class="form-control" placeholder="Choose a username" />
+                            <input asp-for="Username" class="form-control mt-2" placeholder="Choose a username" />
                             <span asp-validation-for="Username" class="text-danger"></span>
                         </div>
 
                         <div class="form-group mb-3">
                             <label asp-for="Password"><i class="fas fa-lock"></i> Password</label>
-                            <input asp-for="Password" type="password" class="form-control"
+                            <input asp-for="Password" type="password" class="form-control mt-2"
                                 placeholder="Enter a secure password" />
                             <span asp-validation-for="Password" class="text-danger"></span>
                         </div>
 
-                        <div class="form-group mb-3">
+                        <div class="form-group mb-3" hidden>
                             <label asp-for="Role"><i class="fas fa-user-tag"></i> Role</label>
                             <input asp-for="Role" type="hidden" value="User" />
                             <input type="text" class="form-control" value="User" readonly />
@@ -62,13 +65,22 @@
 
 <style>
 @* Register Syling *@
+  body {
+   background-image: url('@backgroundImage');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        backdrop-filter: blur(5px);
+        color: white;
+    }
     .card {
         border-radius: 15px;
         box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     }
 
     .card-header {
-        background: linear-gradient(135deg, #28a745, #218838);
+        background: linear-gradient(135deg, #070707, #155322);
         color: white;
         font-weight: bold;
     }

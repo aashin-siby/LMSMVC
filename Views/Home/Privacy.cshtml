@@ -1,9 +1,25 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
+     var backgroundImage =
+    Url.Content("https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
 }
 
 <div class="container mt-4">
-    <h2 class="text-center">Privacy Policy</h2>
-    <p class="text-muted text-center">Last Update :- 29th Jan</p>
+    <h2 class="text-center text-white">Privacy Policy</h2>
+    <hr class="text-white">
+    <p class="text-white text-center">Aashin Siby</p>
 
 </div>
+<style>
+    body {
+        background-image: url('@backgroundImage');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        backdrop-filter: blur(5px);
+    }
+    
+
+
+</style>

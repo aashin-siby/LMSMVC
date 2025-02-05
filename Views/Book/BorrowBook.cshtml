@@ -2,6 +2,9 @@
 
 @{
     ViewData["Title"] = "Borrow Book";
+    var backgroundImage =
+    Url.Content("https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
 }
 
 
@@ -20,7 +23,8 @@
                 </div>
 
                 <div class="alert alert-info mt-3">
-                    <strong>Note:</strong> If the book is not returned within 10 days, an additional penalty of <strong>₹5
+                    <strong>Note:</strong> If the book is not returned within 10 days, an additional penalty of
+                    <strong>₹5
                         per day</strong> will be deducted with the inital <strong>₹100</strong>.
                 </div>
 
@@ -52,4 +56,15 @@
             });
         }); *@
     </script>
+    <style>
+        body {
+            background-image: url('@backgroundImage');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            backdrop-filter: blur(5px);
+            color: white;
+        }
+    </style>
 }
