@@ -4,7 +4,6 @@
     ViewData["Title"] = "Books List";
     var backgroundImage =
     Url.Content("https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-
 }
 
 <h2 class="text-center mb-4 text-white">All Books</h2>
@@ -15,47 +14,61 @@
         @TempData["SuccessMessage"]
     </div>
 }
+<form method="get" action="@Url.Action("Index")" class="mb-3">
+    <div class="input-group">
+        <input type="text" name="search" class="form-control" placeholder="Search by Title or Author"
+            value="@Context.Request.Query["search"]">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
 
-<div class="container ">
+<div class="container">
+
     <div class="row">
         @foreach (var book in Model)
         {
             var decodedImageUrl = !string.IsNullOrEmpty(book.ImageUrl) ? Uri.UnescapeDataString(book.ImageUrl) : null;
-            var decodeddesc = !string.IsNullOrEmpty(book.BookDescription) ? Uri.UnescapeDataString(book.BookDescription) : null;
+            var decodeddesc = !string.IsNullOrEmpty(book.BookDescription) ? Uri.UnescapeDataString(book.BookDescription) :
+            null;
 
             <div class="col-md-4 mb-4">
-                <div class="card" >
-                    @if (!string.IsNullOrEmpty(decodedImageUrl))
+                <div class="card">
+                    @if (!string.IsNullOrEmpty(decodedImageUrl) && (decodedImageUrl != "N/A"))
                     {
-                        <img src="@decodedImageUrl" class="card-img-top" alt="Book Image" height="300px" width="200px">
+                        <img src="@decodedImageUrl" class="d-block mx-auto" alt="Book Image" height="200px" width="150px">
                     }
                     else
                     {
                         <img src="https://media.istockphoto.com/id/466564401/vector/blank-vertical-book-template.jpg?s=612x612&w=0&k=20&c=8Sg5cQzhcqF40PHMmSbOCAr_q_c0HlU8qmQS5tH6wdc="
-                            class="card-img-top" alt="No Image Available" height="300px" width="200px">
+                            class="card-img-top" alt="No Image Available" height="200px" width="150px">
                     }
 
                     <div class="card-body">
                         <h5 class="card-title">@book.Title</h5>
-                        <p class="card-text">Author: @book.Author</p>
+                        <p class="card-subtitle text-muted fw-semibold fst-italic">Author: @book.Author</p>
 
                         @if ((string.IsNullOrEmpty(book.BookDescription)) || book.BookDescription == "undefined")
                         {
                             <p class="card-text">No Description</p>
-
                         }
                         else
                         {
                             <p class="card-text">@decodeddesc</p>
-
                         }
 
                         @if (book.CopiesAvailable == 0)
                         {
-                            <a class="btn btn-primary disabled" tabindex="-1" aria-disabled="true">Currently Unavailable</a>
+                            <a class="btn  disabled" tabindex="-1" aria-disabled="true">Currently Unavailable</a>
                         }
                         else
                         {
+                            @if (book.CopiesAvailable < 3)
+                            {
+                                <div class=" text-danger">
+                                    Only<strong> @book.CopiesAvailable</strong> more book available
+                                </div>
+                            }
+
                             <a asp-action="BorrowBook" asp-route-bookId="@book.BookId" class="btn btn-primary">Borrow</a>
                         }
                     </div>
@@ -73,48 +86,46 @@
         background-position: center;
         background-attachment: fixed;
         backdrop-filter: blur(4px);
-        @* color: white; *@
     }
 
     .card {
-        background: rgba(255, 255, 255, 0.733);
+        background: rgba(255, 255, 255, 0.808);
         backdrop-filter: blur(10px);
         border: none;
-        height: ;
+        height: 475px;
+        width: 300px;
         border-radius: 15px;
         overflow: hidden;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
     }
 
-    .card:hover {
-        transform: scale(1.05);
-        box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.2);
+    .card-text:hover {
+        max-height: 200px;
+        overflow: auto;
     }
 
-    .book-image {
-        height: 300px;
-        object-fit: cover;
-        width: 100%;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    }
-
-    /* Card Body Styling */
     .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         padding: 15px;
+        height: 100%;
+        overflow: hidden;
     }
 
     .card-title {
         font-weight: bold;
-        @* color: white; *@
     }
 
     .card-text {
-        @* color: #ddd; *@
         font-size: 14px;
+        flex-grow: 1;
+        max-height: 50px;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
     }
 
-    /* Modern Buttons */
     .btn-primary {
         background: linear-gradient(135deg, #00c6ff, #0072ff);
         border: none;

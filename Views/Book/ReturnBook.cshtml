@@ -19,6 +19,12 @@
                     <input asp-for="ReturnDate" class="form-control" type="date" id="ReturnDate" required />
                     <span asp-validation-for="ReturnDate" class="text-danger"></span>
                 </div>
+                <div class="alert alert-info mt-3">
+                    <strong>Note:</strong> If the book is not returned within 10 days, an additional penalty of
+                    <strong>₹5
+                        per day</strong> will be deducted with the inital <strong>₹100</strong>.
+                </div>
+
 
                 <button type="submit" class="btn btn-primary mt-3 w-100">Confirm Return</button>
             </form>

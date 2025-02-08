@@ -19,12 +19,11 @@ public class BookController : Controller
      }
 
      // GET: Display the list of books
-     
-     public async Task<IActionResult> Index()
+
+     public async Task<IActionResult> Index(string search)
      {
           try
           {
-
                var response = await _httpClient.GetAsync("api/UserBooks/books");
 
                if (response.IsSuccessStatusCode)
@@ -33,32 +32,27 @@ public class BookController : Controller
                     var books = JsonSerializer.Deserialize<IEnumerable<Book>>(content,
                         new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
-                    _logger.LogInformation("Diplayed the book list");
+                    if (!string.IsNullOrEmpty(search))
+                    {
+                         search = search.ToLower();
+                         books = books?.Where(b => b.Title.ToLower().Contains(search) || b.Author.ToLower().Contains(search));
+                    }
+
+                    _logger.LogInformation("Displayed the book list with search results.");
                     return View(books ?? Enumerable.Empty<Book>());
                }
 
                _logger.LogError($"API returned status code: {response.StatusCode}");
                return View();
           }
-          catch (HttpRequestException httpRequestException)
+          catch (Exception ex)
           {
-
-               _logger.LogError("Connection error" + httpRequestException);
-               return View();
-          }
-          catch (JsonException jsonException)
-          {
-
-               _logger.LogError("Error in processing data from the API" + jsonException);
-               return View();
-          }
-          catch (Exception exception)
-          {
-
-               _logger.LogError("Unexpected errors" + exception);
+               _logger.LogError("Unexpected error: " + ex);
                return View();
           }
      }
+
+
 
      // GET: Show the form to borrow a book
      [HttpGet]

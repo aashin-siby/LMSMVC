@@ -39,11 +39,9 @@ public class AuthsController : Controller
 
         var content = new StringContent(JsonSerializer.Serialize(loginDto), Encoding.UTF8, "application/json");
 
-        // Use the named HttpClient to send the request
         var response = await _httpClient.PostAsync("api/Auth/login", content);
 
         var responseContent = await response.Content.ReadAsStringAsync();
-        // Console.WriteLine($"Response Content: {responseContent}");
         var result = JsonSerializer.Deserialize<JsonElement>(responseContent);
 
         if (response.IsSuccessStatusCode)
@@ -52,7 +50,6 @@ public class AuthsController : Controller
             {
                 var token = result.GetProperty("token").GetString();
                 var role = result.GetProperty("role").GetString();
-                //Store the JWT token, user role, username in session 
                 HttpContext.Session.SetString("AuthToken", token);
                 HttpContext.Session.SetString("UserRole", role);
                 HttpContext.Session.SetString("Username", username);
@@ -100,7 +97,7 @@ public class AuthsController : Controller
 
             if (response.IsSuccessStatusCode)
             {
-
+                TempData["RegisterMessage"] = "Registration successful. Please login to continue.";
                 _logger.LogInformation("Registration successful and redirected to Login");
                 return RedirectToAction("Login");
             }
