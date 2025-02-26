@@ -153,4 +153,3 @@ D:\Dotnet\LMSMVC\obj\Debug\net9.0\LMSMVC.sourcelink.json
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\a0aa7fypba-xgq560ya3n.gz
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\h59y35fs4l-xgq560ya3n.gz
 D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\fpxjz5o7q6-8781mr4h71.gz
-D:\Dotnet\LMSMVC\obj\Debug\net9.0\compressed\jpy06ut8d2-61n19gt1b8.gz

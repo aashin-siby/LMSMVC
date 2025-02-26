@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Dotnet\\LMSMVC\\wwwroot\\faviconss.ico",
-      "PackagePath": "staticwebassets\\faviconss.ico"
-    },
-    {
       "Id": "D:\\Dotnet\\LMSMVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

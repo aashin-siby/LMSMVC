@@ -1,3 +1,5 @@
+@*  Register Page View  *@
+
 @model LMSAPI.DTO.UserRegister
 
 @{
@@ -16,8 +18,7 @@
                 </div>
 
                 <div class="card-body">
-                   
-
+                    @* Form to Register new User *@
                     <form action="/Auths/Register" method="post">
                         <div class="form-group mb-3">
                             <label asp-for="Username"><i class="fas fa-user"></i> Username</label>
@@ -45,7 +46,7 @@
                         </div>
                     </form>
                 </div>
-
+                @* Redirects users to the login page if they have an account *@
                 <div class="card-footer text-center">
                     <p class="mb-0">Already have an account?
                         <a asp-controller="Auths" asp-action="Login" class="text-success">
@@ -59,7 +60,7 @@
 </div>
 
 <style>
-@* Register Syling *@
+@* Register Styling *@
   body {
    background-image: url('@backgroundImage');
         background-size: cover;

@@ -19,7 +19,6 @@ public class BookController : Controller
      }
 
      // GET: Display the list of books
-
      public async Task<IActionResult> Index(string search)
      {
           try
@@ -51,8 +50,6 @@ public class BookController : Controller
                return View();
           }
      }
-
-
 
      // GET: Show the form to borrow a book
      [HttpGet]
