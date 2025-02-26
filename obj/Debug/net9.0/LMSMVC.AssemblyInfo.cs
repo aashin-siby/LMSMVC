@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LMSMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad6759b0c4d8177aef58349bbec618888ba7c898")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0adf1f05356b67d89190210885305a63c9d591a")]
 [assembly: System.Reflection.AssemblyProductAttribute("LMSMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LMSMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

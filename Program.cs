@@ -38,7 +38,7 @@ app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Configure the default route for the application
+// The default route for the application
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -35,7 +35,7 @@ public class BookController : Controller
                     if (!string.IsNullOrEmpty(search))
                     {
                          search = search.ToLower();
-                         books = books?.Where(b => b.Title.ToLower().Contains(search) || b.Author.ToLower().Contains(search));
+                         books = books?.Where(book => book.Title.ToLower().Contains(search) || book.Author.ToLower().Contains(search));
                     }
 
                     _logger.LogInformation("Displayed the book list with search results.");
@@ -155,7 +155,7 @@ public class BookController : Controller
           var handler = new JwtSecurityTokenHandler();
           var jwtToken = handler.ReadJwtToken(token);
 
-          var userIdClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "userId")?.Value;
+          var userIdClaim = jwtToken.Claims.FirstOrDefault(claim => claim.Type == "userId")?.Value;
           if (userIdClaim == null)
           {
 

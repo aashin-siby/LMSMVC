@@ -31,7 +31,7 @@ public class AuthsController : Controller
     [HttpPost]
     public async Task<IActionResult> Login(string username, string password)
     {
-        var loginDto = new
+        var loginDto = new 
         {
             Username = username,
             Password = password
